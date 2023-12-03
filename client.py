@@ -3,7 +3,7 @@ import socket
 import subprocess
 
 SERVER_IP= ""
-PORT=1234
+PORT=4444
 
 s=socket.socket()
 s.connect((SERVER_IP, PORT))
